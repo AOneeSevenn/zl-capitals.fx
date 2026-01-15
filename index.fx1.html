@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZL-CAPITALS.FX - Komunitas Trading Forex Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+    <meta name="description" content="Komunitas trading forex premium dengan sinyal real-time, edukasi lengkap, dan tools profesional untuk trader Indonesia">
+    <meta name="keywords" content="forex, trading, sinyal forex, edukasi trading, komunitas trader, ZL-CAPITALS">
+    <meta name="author" content="ZL-CAPITALS.FX">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">₿</span>
+                <span class="logo-text">ZL-CAPITALS<span class="fx">.FX</span></span>
+            </a>
+            
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link active"><i class="fas fa-home"></i> Beranda</a>
+                <a href="education.html" class="nav-link"><i class="fas fa-graduation-cap"></i> Edukasi</a>
+                <a href="signals.html" class="nav-link"><i class="fas fa-chart-line"></i> Sinyal</a>
+                <a href="forum.html" class="nav-link"><i class="fas fa-users"></i> Forum</a>
+                <a href="dashboard.html" class="nav-link"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+                <a href="pricing.html" class="nav-link premium"><i class="fas fa-crown"></i> Premium</a>
+            </div>
+            
+            <div class="nav-actions">
+                <button class="btn-login" id="loginBtn">Masuk</button>
+                <button class="btn-register" id="registerBtn">Daftar Gratis</button>
+                <div class="mobile-toggle" id="mobileToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Tingkatkan <span class="highlight">Profit</span> Trading Forex Anda Bersama Komunitas <span class="highlight">Premium</span></h1>
+                <p class="hero-subtitle">Bergabung dengan 5,000+ trader profesional yang sudah meningkatkan konsistensi profit hingga 300%</p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">85.7%</span>
+                        <span class="stat-label">Win Rate Sinyal</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Analisis Real-time</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5K+</span>
+                        <span class="stat-label">Member Aktif</span>
+                    </div>
+                </div>
+                
+                <div class="hero-cta">
+                    <button class="btn-primary btn-large" id="startTrial">Mulai Trial 7 Hari Gratis</button>
+                    <button class="btn-secondary btn-large" id="watchDemo">
+                        <i class="fas fa-play-circle"></i> Tonton Demo
+                    </button>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="trading-widget">
+                    <div class="widget-header">
+                        <h4><i class="fas fa-chart-bar"></i> Live Market</h4>
+                        <span class="live-dot"></span> LIVE
+                    </div>
+                    <div class="market-pairs">
+                        <div class="pair">
+                            <span>EUR/USD</span>
+                            <span class="price up">1.0854</span>
+                            <span class="change up">+0.24%</span>
+                        </div>
+                        <div class="pair">
+                            <span>GBP/USD</span>
+                            <span class="price down">1.2701</span>
+                            <span class="change down">-0.12%</span>
+                        </div>
+                        <div class="pair">
+                            <span>USD/JPY</span>
+                            <span class="price up">148.32</span>
+                            <span class="change up">+0.45%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Apa yang Anda Dapatkan di ZL-CAPITALS.FX</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Sinyal Real-time</h3>
+                    <p>Sinyal trading dengan konfirmasi entry, SL, TP, dan risk management lengkap</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> 15-20 sinyal harian</li>
+                        <li><i class="fas fa-check"></i> Win rate 85%+</li>
+                        <li><i class="fas fa-check"></i> Notifikasi instant</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Edukasi Lengkap</h3>
+                    <p>Kurikulum dari basic sampai master dengan mentor berpengalaman</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> 200+ video course</li>
+                        <li><i class="fas fa-check"></i> Live webinar harian</li>
+                        <li><i class="fas fa-check"></i> Private mentoring</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Tools Premium</h3>
+                    <p>Indikator custom, EA, dan tools analisis eksklusif untuk member</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> ZL Smart Indicator</li>
+                        <li><i class="fas fa-check"></i> Auto-trading EA</li>
+                        <li><i class="fas fa-check"></i> Market scanner</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Komunitas Elite</h3>
+                    <p>Diskusi dengan trader profitable, sharing session, dan copy trading</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Private group VIP</li>
+                        <li><i class="fas fa-check"></i> Weekly market review</li>
+                        <li><i class="fas fa-check"></i> Copy trading verified</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Preview -->
+    <section class="pricing-preview">
+        <div class="container">
+            <h2 class="section-title">Pilih Paket Keanggotaan</h2>
+            
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>BASIC</h3>
+                        <div class="price">Rp 299K<span>/bulan</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 5 Sinyal Harian</li>
+                        <li><i class="fas fa-check"></i> Edukasi Dasar</li>
+                        <li><i class="fas fa-check"></i> Forum Komunitas</li>
+                        <li><i class="fas fa-times"></i> Tools Premium</li>
+                        <li><i class="fas fa-times"></i> Private Mentoring</li>
+                    </ul>
+                    <button class="btn-outline">Pilih Paket</button>
+                </div>
+                
+                <div class="pricing-card popular">
+                    <div class="popular-badge">POPULAR</div>
+                    <div class="pricing-header">
+                        <h3>PRO</h3>
+                        <div class="price">Rp 799K<span>/bulan</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 15 Sinyal Harian</li>
+                        <li><i class="fas fa-check"></i> Full Edukasi</li>
+                        <li><i class="fas fa-check"></i> VIP Forum</li>
+                        <li><i class="fas fa-check"></i> All Tools</li>
+                        <li><i class="fas fa-check"></i> Weekly Mentoring</li>
+                    </ul>
+                    <button class="btn-primary">Pilih Paket</button>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>VIP</h3>
+                        <div class="price">Rp 1.499K<span>/bulan</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Unlimited Sinyal</li>
+                        <li><i class="fas fa-check"></i> 1-on-1 Mentoring</li>
+                        <li><i class="fas fa-check"></i> Custom EA</li>
+                        <li><i class="fas fa-check"></i> Portfolio Management</li>
+                        <li><i class="fas fa-check"></i> Direct Support</li>
+                    </ul>
+                    <button class="btn-outline">Pilih Paket</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Kisah Sukses Member</h2>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Dalam 3 bulan, profit konsisten naik dari 15% menjadi 45% per bulan. Tools dan sinyalnya sangat akurat!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Member">
+                        <div>
+                            <h4>Budi Santoso</h4>
+                            <span>Trader sejak 2022</span>
+                        </div>
+                        <div class="profit-badge">+312% Profit</div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Edukasinya sangat detail, dari nol sampai bisa profit. Support tim juga responsif banget!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Member">
+                        <div>
+                            <h4>Sari Dewi</h4>
+                            <span>Trader sejak 2023</span>
+                        </div>
+                        <div class="profit-badge">+187% Profit</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">₿</span>
+                        ZL-CAPITALS<span class="fx">.FX</span>
+                    </a>
+                    <p class="footer-description">
+                        Komunitas trading forex premium Indonesia dengan tools dan edukasi terlengkap untuk mencapai profit konsisten.
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Produk</h4>
+                    <ul>
+                        <li><a href="signals.html">Sinyal Trading</a></li>
+                        <li><a href="education.html">Edukasi</a></li>
+                        <li><a href="tools.html">Tools Premium</a></li>
+                        <li><a href="mentoring.html">Mentoring</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Perusahaan</h4>
+                    <ul>
+                        <li><a href="about.html">Tentang Kami</a></li>
+                        <li><a href="contact.html">Kontak</a></li>
+                        <li><a href="privacy.html">Kebijakan Privasi</a></li>
+                        <li><a href="terms.html">Syarat Layanan</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Kontak</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-envelope"></i> support@zl-capitals.fx</li>
+                        <li><i class="fab fa-telegram"></i> @zlcapitals_support</li>
+                        <li><i class="fas fa-phone"></i> +62 21 1234 5678</li>
+                    </ul>
+                    
+                    <div class="newsletter">
+                        <h5>Newsletter</h5>
+                        <p>Dapatkan analisis market mingguan gratis</p>
+                        <div class="newsletter-form">
+                            <input type="email" placeholder="Email Anda">
+                            <button><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2024 ZL-CAPITALS.FX. Hak Cipta Dilindungi. Trading forex mengandung risiko tinggi.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-paypal"></i>
+                    <i class="fas fa-university"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Masuk ke Akun Anda</h2>
+            <form id="loginForm">
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit" class="btn-primary">Masuk</button>
+                <p class="modal-link">Lupa password? <a href="#">Reset di sini</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
